@@ -1,0 +1,8 @@
+<button
+  type="button"
+  class="btn btn-danger mr-3"
+  (click)="onClick(toggle)"
+  [ngClass]="{ '': !toggle, active: toggle }"
+>
+  Show red block
+</button>

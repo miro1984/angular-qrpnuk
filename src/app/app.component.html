@@ -1,0 +1,8 @@
+<div class="container my-4">
+
+	<app-buttons (clickBtn)="onButtonClick()"></app-buttons>
+
+	<app-panel [ngClass]="{	'' : !toggle,'active' : toggle }">
+		<p>Panel Works!</p>
+	</app-panel>
+</div>
